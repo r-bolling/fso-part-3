@@ -8,3 +8,15 @@ Content-Type: application/json
   "name": "Shady Dude",
   "number": "000-000-0000"
 }
+
+###
+POST https://damp-coast-84192.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+  "name": "Shady Dude",
+  "number": "000-000-0000"
+}
+
+###
+DELETE https://damp-coast-84192.herokuapp.com/api/persons/3
