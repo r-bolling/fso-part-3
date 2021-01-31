@@ -5,6 +5,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 app.use(express.json());
+app.use(express.static('build'));
 app.use(cors());
 
 let persons = [
