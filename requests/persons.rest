@@ -5,8 +5,8 @@ POST http://localhost:3001/api/persons/
 Content-Type: application/json
 
 {
-  "name": "Shady Dude",
-  "number": "000-000-0000"
+  "name": "Joe",
+  "number": "000-000-"
 }
 
 ###
@@ -19,4 +19,10 @@ Content-Type: application/json
 }
 
 ###
-DELETE https://damp-coast-84192.herokuapp.com/api/persons/3
+DELETE https://damp-coast-84192.herokuapp.com/api/persons/6026c017703a525e4e649cc0
+
+###
+GET http://localhost:3001/api/persons
+
+###
+DELETE http://localhost:3001/api/persons/6026c017703a525e4e649cc0
